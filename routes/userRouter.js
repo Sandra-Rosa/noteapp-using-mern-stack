@@ -6,7 +6,7 @@ const router = require('express').Router()
 
 
 //user register
-router.post('/',(req,res)=>{
+router.get('/',(req,res)=>{
     res.json({msg: "Register a user"})
 })
 
